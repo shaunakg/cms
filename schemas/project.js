@@ -45,7 +45,7 @@ export default {
     {
       name: 'description',
       title: 'Short Description',
-      type: 'blockContent'
+      type: 'string'
     },
     {
       name: 'articlecontent',

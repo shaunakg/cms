@@ -48,6 +48,18 @@ export default {
       type: 'string'
     },
     {
+      name: 'keywords',
+      title: 'Keywords',
+      type: 'array',
+      of: [{type: 'string'}]
+    },
+    {
+      name: 'hashtags',
+      title: 'Hashtags (no #)',
+      type: 'array',
+      of: [{type: 'string'}]
+    },
+    {
       name: 'articlecontent',
       title: 'Article Content',
       type: 'blockContent'
